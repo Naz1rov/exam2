@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/css/minified/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./images/3d-weather-icon-day-free-png.png" type="image/x-icon">
+</head>
+<body class="body">
+    <header id="header" >
+        <div class="container">
+            <nav>
+                <img class="nav-img" src="./images/nav-logo.png" alt="logo">
+                <ul>
+                    <li><a href="#asosiy">Asosiy</a></li>
+                    <li><a href="#our-course">Kurslarimiz</a></li>
+                    <li><a href="#certificate">Natijalar</a></li>
+                    <li><a href="#team">Bizning jamoa</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+                
+                <button> Kirish</button>
+
+                <div class="burger">
+                    <label for="checkbox">
+                        <img src="./images/nav-logo.png" alt="">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="checkbox">
+                    <div class="sidebar">
+                        <label for="checkbox">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <ul>
+                            <li><a href="">asosiy </a></li>
+                            <li><a href="">Kurslarimiz</a></li>
+                            <li><a href="">Natijalar</a></li>
+                            <li><a href="">Bizning jamoa</a></li>
+                            <li><a href="">You tube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <section id="asosiy">
+        <div class="container">
+            <div class="hero-content">
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme">
+                    <label for="theme">
+                        <i class="bi bi-sun-fill"></i>
+                        <i class="bi bi-moon-fill"></i>
+                    </label>
+                </div>
+                <div class="hero">
+                   <div class="hero-about">
+                    <h1> <span>Eng kuchli</span> va zamonaviy o’qitish
+                        uslubida ta’lim beruvchi <span>markaz</span></h1>
+                        <button>Kurslarimiz</button>
+                        <button>Aloqa</button>
+                   </div>
+                    <div class="hero-imgs">
+                        <img src="./images/phone1.png" alt="">
+                        <img class="hero-imggg" src="./images/phone.png" alt="">
+                        <img src="./images/phone3.png" alt="">  
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="statistika">
+        <div class="container">
+            <div class="Statistika">
+                <h2>Statistika</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./images/sta1.png" alt="logo">
+                        <h2>7 ta</h2>
+                        <p>Kurslarimiz soni </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/sta2.png" alt="logo">
+                        <h2>267 ta</h2>
+                        <p>Oquvchilarimiz soni </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/sta3.png" alt="logo">
+                        <h2>227 ta</h2>
+                        <p>Ishga joylashganlar </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/sta4.png" alt="logo">
+                        <h2>9 ta</h2>
+                        <p>mentorlar </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <h2>Biz haqimizda</h2>
+           <div class="a-content">
+            <div class="a-imgs">
+                <img class="img11" src="./images/a-u1.png" alt="pic">
+                <img src="./images/a-u2.png" alt="pic">
+            </div>
+            <div class="a-about">
+                <h3>Biz haqimizda faqat bizdan eshiting </h3>
+                <p>Eget nam quisque lobortis ipsum sollicitudin. Ultricies morbi platea ac vel duis sed pretium. Vel ac magnis et lobortis adipiscing tempor, tincidunt urna. Morbi aenean natoque bibendum ut volutpat.</p>
+                <p>Varius cras facilisi eleifend consequat libero sit nisl. Purus arcu viverra facilisi in. Sit consequat dolor lectus velit, neque, enim, fames laoreet.</p>
+            </div>
+           </div>
+
+        </div>
+
+    </section>
+    <section id="our-course">
+        <div class="container">
+            <div class="course-title">
+                <h2>Kurslar</h2>
+                <button >Barcha kurslar ></button>
+            </div>
+            <div class="course-cards">
+                <div class="course-card">
+                    <img src="./images/android (2).png" alt="android">
+                    <h3>Mobile Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit. Purus, vel vel nulla faucibus.  </p>
+                    <p class="pp">Boshlanish kuni: <span>16.01.2022</span></p>
+                    <p>Qolgan joylar: <span>8 ta</span></p>
+                    <button  id="buttons">Batafsil</button>
+                </div>
+                <div class="course-card">
+                    <img src="./images/frontted.png" alt="android">
+                    <h3>Mobile Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit. Purus, vel vel nulla faucibus.  </p>
+                    <p class="pp">Boshlanish kuni: <span>16.01.2022</span></p>
+                    <p>Qolgan joylar: <span>8 ta</span></p>
+                    <button  id="buttons">Batafsil</button>
+                </div>
+                <div class="course-card">
+                    <img src="./images/beckend.png" alt="android">
+                    <h3>Mobile Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit. Purus, vel vel nulla faucibus.  </p>
+                    <p class="pp">Boshlanish kuni: <span>16.01.2022</span></p>
+                    <p>Qolgan joylar: <span>8 ta</span></p>
+                    <button  id="buttons">Batafsil</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="free-lessons">
+        <div class="container">
+            <div class="lesson-title">
+                <h2>Bepul darsliklar</h2>
+                <button  id="buttons">Barcha kurslar ></button>
+            </div>
+            <div class="lesson-cards">
+                <div class="lesson-card">
+                    <img src="./images/free-l1.png" alt="lesson">
+                    <h3>Backend Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit.</p>
+                    <button id="buttons">Korish</button>
+                </div>
+                <div class="lesson-card">
+                    <img src="./images/free-l2.png" alt="lesson">
+                    <h3>Backend Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit.</p>
+                    <button  id="buttons">Korish</button>
+                </div>
+                <div class="lesson-card">
+                    <img src="./images/free-l3.png" alt="lesson">
+                    <h3>Backend Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit.</p>
+                    <button  id="buttons">Korish</button>
+                </div>
+                <div class="lesson-card">
+                    <img src="./images/free-l1.png" alt="lesson">
+                    <h3>Backend Bootcamp</h3>
+                    <p>Consectetur adipiscing elit. Potenti in cras etiam nunc. Et diam augue turpis curabitur et vitae at et, sit.</p>
+                    <button  id="buttons">Korish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="team-title">
+                <h2>Bizning jamoa</h2>
+                <button  id="buttons">Barcha kurslar ></button>
+            </div>
+            <div class="our-team">
+                <div class="team-card">
+                    <img src="./images/photo_2024-10-09_11-51-52 (2).jpg" alt="pic">
+                    <h2>Jahongir Rahmatullaev</h2>
+                    <span>Frontend dasturchi</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices cras rutrum eu lacus. Amet, eros, neque porta sapien dignissim ut nisi ultricies.</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-github"></i>
+                        
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./images/photo_2024-10-09_11-51-52 (3).jpg" alt="pic">
+                    <h2>Asadbek  Muxsimov</h2>
+                    <span>Frontend dasturchi</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices cras rutrum eu lacus. Amet, eros, neque porta sapien dignissim ut nisi ultricies.</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./images/photo_2024-10-09_11-51-52.jpg" alt="pic">
+                    <h2>Dilshod Akromboyev</h2>
+                    <span>Frontend dasturchi</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices cras rutrum eu lacus. Amet, eros, neque porta sapien dignissim ut nisi ultricies.</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img class="nazirov" src="./images/photo_2024-10-09_11-57-50.jpg" alt="pic">
+                    <h2>Ozodbek Nazirov</h2>
+                    <span>Frontend dasturchi</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices cras rutrum eu lacus. Amet, eros, neque porta sapien dignissim ut nisi ultricies.</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certificate">
+        <div class="container">
+            <h2>Sertifikat</h2>
+            <div class="certificate-content">
+                <img src="./images/sertifikat.png" alt="certificate">
+                <div class="certificate-about">
+                    <h2>+200 o’quvchilar bizga ishonishgan</h2>
+                    <p>Kursni tamomlagan talabalarning o’zlashtirish ko’rsatkichi e’tiborga olingan holda sertifikatlar beriladi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <hr>
+        <div class="container">
+            <div class="ftr-content">
+                <div class="ftr">
+                    <p>Neumorphism UI PRO is a premium Bootstrap UI Kit built based on the newest design trend called Neumorphism.</p>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="Webbrain">
+                    <h3>Webbrain</h3>
+                    <p>Team</p>
+                    <p>Lessons</p>
+                    <p>Partners</p>
+                    <p>About us</p>
+                </div>
+                <div class="Others">
+                    <h3>Others</h3>
+                    <p>Docs</p>
+                    <p>Changelog</p>
+                    <p>Licence</p>
+                    <p>Support</p>
+                </div>
+                <div class="Others2">
+                    <h3>Others</h3>
+                    <p>Join our mailing list. We write rarely, but only the best content</p>  
+                    <input type="email" placeholder="Email manzilinggiz">
+                    <button>yuborish</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="ftr-logo">
+            <img src="./images/nav-logo.png" alt="logo">
+            <p>Copyright  Webbrain 2021. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
